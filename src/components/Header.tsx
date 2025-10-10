@@ -11,7 +11,7 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <img src="/src/assets/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" width={90} alt="Arganora Logo" />
+          <img src="/public/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" width={90} alt="Arganora Logo" />
           {/* <h1 className="text-2xl font-heading font-bold text-gradient">
             Arganora</h1> */}
           
