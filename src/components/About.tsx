@@ -1,4 +1,5 @@
 import { Users, Leaf, Award, Globe } from "lucide-react";
+import heroImage from "@/assets/hero-argan.jpg";
 
 const stats = [
   { icon: Users, value: "50+", label: "Women Artisans" },
@@ -68,7 +69,7 @@ const About = () => {
             <div className="aspect-[4/5] bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden shadow-lg">
               <img 
                 className="w-full h-full object-cover rounded-2xl" 
-                src="/hero-argan.jpg" 
+                src={heroImage} 
                 alt="Traditional argan oil production"
               />
             </div>
