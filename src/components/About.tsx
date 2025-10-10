@@ -15,7 +15,7 @@ const About = () => {
           <div className="animate-fade-up space-y-6">
             <div className="mb-8">
               <img 
-                src="/public/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" 
+                src="/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" 
                 width={200} 
                 height={100}
                 alt="Arganora Logo" 
