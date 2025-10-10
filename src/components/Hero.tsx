@@ -21,6 +21,13 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl animate-fade-up">
+          <img 
+            src="/public/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" 
+            width={200} 
+            height={100}
+            alt="Arganora Logo" 
+            className="mb-6"
+          />
           <p className="text-primary font-medium mb-4">From Our Cooperative to You</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 leading-tight">
             Pure Moroccan
