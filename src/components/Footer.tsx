@@ -49,7 +49,7 @@ const Footer = () => {
             <div className="border-t border-background/20 pt-4">
               <h5 className="font-medium mb-2 text-sm">Contact the Developer</h5>
               <p className="text-background/80 text-sm mb-2">Yahya Lmouri</p>
-              <a href="mailto:yahya.lmouri@example.com" className="text-background/80 hover:text-background transition-colors text-sm flex items-center gap-2">
+              <a href="https://github.com/yahyaLMR" className="text-background/80 hover:text-background transition-colors text-sm flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 Get in Touch
               </a>
