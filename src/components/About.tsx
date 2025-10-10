@@ -68,7 +68,7 @@ const About = () => {
             <div className="aspect-[4/5] bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden shadow-lg">
               <img 
                 className="w-full h-full object-cover rounded-2xl" 
-                src="/src/assets/hero-argan.jpg" 
+                src="/hero-argan.jpg" 
                 alt="Traditional argan oil production"
               />
             </div>
