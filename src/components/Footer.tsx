@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8 text-center text-background/60">
             <p>
             &copy; {new Date().getFullYear()} Arganora Cooperative. All rights reserved to{" "}
-            <a href="">yahya lmouri</a>.
+            <a href="https://github.com/yahyaLMR">yahya lmouri</a>.
             </p>
         </div>
       </div>
