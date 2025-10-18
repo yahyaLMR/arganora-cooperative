@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "../assets/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,9 +16,9 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          {/* <img src="/public/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" width={90} alt="Arganora Logo" /> */}
-          <h1 className="text-2xl font-heading font-bold text-gradient">
-            Arganora</h1>
+          <img src={logo} width={80} alt="Arganora Logo" />
+          {/* <h1 className="text-2xl font-heading font-bold text-gradient">
+            Arganora</h1> */}
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

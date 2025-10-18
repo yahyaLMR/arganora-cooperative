@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Mail } from "lucide-react";
+import TikTokIcon from "@/components/ui/tiktok-icon";
 
 const Footer = () => {
   return (
@@ -35,13 +36,16 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4 mb-6">
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
+              <a target="_blank" href="https://web.facebook.com/profile.php?id=61582379466077" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
+              <a target="_blank" href="https://www.instagram.com/cooperativearganora/" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
+              <a target="_blank" href="https://www.tiktok.com/@arganora20?is_from_webapp=1&sender_device=pc" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
+                <TikTokIcon className="w-5 h-5" />
+              </a>
+              <a href="mailto:cooperativearganora@gmail.com" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
             </div>

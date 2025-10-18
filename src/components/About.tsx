@@ -1,6 +1,8 @@
 import { Users, Leaf, Award, Globe } from "lucide-react";
 import heroImage from "@/assets/hero-argan.jpg";
 
+import logo from "../assets/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png"
+
 const stats = [
   { icon: Users, value: "50+", label: "Women Artisans" },
   { icon: Leaf, value: "100%", label: "Organic & Pure" },
@@ -16,7 +18,7 @@ const About = () => {
           <div className="animate-fade-up space-y-6">
             <div className="mb-8">
               <img 
-                src="/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" 
+                src={logo}
                 width={200} 
                 height={100}
                 alt="Arganora Logo" 

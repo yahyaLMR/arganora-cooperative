@@ -34,15 +34,15 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>contact@arganora.com</span>
+                <span>cooperativearganora@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+212 600 000 000</span>
+                <span>+212688142336</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span>Agadir, Morocco</span>
+                <span>Essaouira, Morocco</span>
               </div>
             </div>
           </div>

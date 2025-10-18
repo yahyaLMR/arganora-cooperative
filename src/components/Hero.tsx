@@ -14,21 +14,15 @@ const Hero = () => {
         <img 
           src={heroImage} 
           alt="Traditional Moroccan woman producing argan oil" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent md:bg-gradient-to-r md:from-background/90 md:via-background/60 md:to-transparent lg:from-background/85 lg:via-background/50 lg:to-transparent"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl animate-fade-up">
-          <img 
-            src="/Minimalist_Logo_with__arganora__in_Warm_Tones-removebg-preview.png" 
-            width={200} 
-            height={100}
-            alt="Arganora Logo" 
-            className="mb-6"
-          />
-          <p className="text-primary font-medium mb-4">From Our Cooperative to You</p>
+          
+          <p className="text-primary font-medium mb-4">From Our Arganora Cooperative to You</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 leading-tight">
             Pure Moroccan
             <span className="block text-gradient">Argan Oil</span>
