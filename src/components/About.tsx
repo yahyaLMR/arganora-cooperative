@@ -7,7 +7,7 @@ const stats = [
   { icon: Users, value: "50+", label: "Women Artisans" },
   { icon: Leaf, value: "100%", label: "Organic & Pure" },
   { icon: Award, value: "20+", label: "Years Experience" },
-  { icon: Globe, value: "15+", label: "Countries Shipped" },
+  { icon: Globe, value: "Ethically Sourced", label: "Reasonable sourcing" },
 ];
 
 const About = () => {
